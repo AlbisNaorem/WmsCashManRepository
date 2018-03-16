@@ -1,0 +1,57 @@
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 98%;
+    background-color: white;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 12px;
+    text-align: left;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #e8e4e3;
+    color: #000;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.tabButton{
+	height: 30px;
+	width: 110px;
+	border: 1px solid rgba(255, 255, 255, 1);
+	color: #666;
+	font-style: normal;
+	font-size: 10px;
+	font-weight:bold;
+	table-layout: auto;
+	background-color: rgba(232, 228, 227, 1);
+	border-radius: 10px 10px 0px 0px ;
+	text-align: center;
+	position: relative;
+	padding-bottom: 0px;
+	vertical-align: text-bottom;
+	cursor: pointer;
+	border-bottom-style: none;
+}
+.tabcontainer{
+	border: 1px solid rgba(255, 255, 255, 1);
+	height: 600px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 0px;
+	display: inline-block;
+	background-color: #eff2f2;
+	border-color: #d9dede;
+	width: 100%;
+}

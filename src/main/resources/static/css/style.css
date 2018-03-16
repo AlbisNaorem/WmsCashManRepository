@@ -1,0 +1,32 @@
+.form {
+	background-color: #efefef;
+	width: 400px;
+	height: 50px;
+	border-radius: 7px;
+	padding: 20px;
+}
+    select{
+        color:#8d8a89;
+    }
+    option:not(:checked) { 
+        background-color: #FFF; 
+        color:#000;
+    }
+ .message{
+ color: red;
+ font-size: 9px;
+ font-style: normal;
+ }  
+ input.testbox{
+ width:250px;
+ height: 25px; 
+ }
+ 
+ table, td {    
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th, td {
+    padding: 15px;
+}
